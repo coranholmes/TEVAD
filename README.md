@@ -55,10 +55,10 @@ The paper is accepted by O-DRUM workshop @ CVPR 2023.
 **To run the code, take UCF-Crime dataset as an example.**
 
 ## Text features
-Download from [LINK](https://1drv.ms/u/s!AlbDzA9D8VkhoO8dcvJNaAMkk5bbgA?e=Eh2LCB) (the file structure is the same as the tree map shown above) and put under `/save/Crime/snet_emb_n/` folder.
+Download from [LINK](https://1drv.ms/u/s!AlbDzA9D8VkhoO8dcvJNaAMkk5bbgA?e=Eh2LCB) (the file structure is the same as the tree map shown above) and put under `/save/Crime/snet_emb_n/` folder or generate the text features using this [repo](https://github.com/coranholmes/SwinBERT)
 
 ## Visual features
-1. You can generate the visual features using this [repo](https://github.com/GowthamGottimukkala/I3D_Feature_Extraction_resnet) or download from [here](https://1drv.ms/u/s!AlbDzA9D8VkhoO8dcvJNaAMkk5bbgA?e=Eh2LCB).
+1. You can download from [here](https://1drv.ms/u/s!AlbDzA9D8VkhoO8dcvJNaAMkk5bbgA?e=Eh2LCB) or generate the visual features using this [repo](https://github.com/GowthamGottimukkala/I3D_Feature_Extraction_resnet).
 2. For UCF-Crime dataset, put the generated/downloaded features under `./save/Crime/UCF_ten_crop_i3d_v1` folder. Other datasets follow the same structure.
 3. For UCF-Crime dataset, change the path of visual features in `./list/ucf-i3d-test.list` and `list/ucf-i3d.list`. Other datasets follow the same structure.
 
