@@ -1,0 +1,7 @@
+__pycache__
+*.pyc
+archive
+.idea
+.DS_Store
+list/annotations
+hmgics
